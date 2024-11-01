@@ -21,5 +21,13 @@ RSpec.describe StringCalculator do
     it "allow newline between two numbers and with two digit numbers" do
       expect(StringCalculator.add("11\n2,13")).to eq(26)
     end
+
+    it "supports different delimiters at begining" do
+      expect(StringCalculator.add("//;\n12;2")).to eq(14)
+    end
+
+    it "supports different delimiters at the end" do
+      expect(StringCalculator.add(";\n14;2\\")).to eq(16)
+    end
   end
 end
