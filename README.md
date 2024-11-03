@@ -15,11 +15,12 @@
   -  ubuntu - https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rvm-on-ubuntu-20-04
   -  mac - https://nrogap.medium.com/install-rvm-in-macos-step-by-step-d3b3c236953b
    OR 
-- installl  rbenv
+- Installl  rbenv
   - ubuntu - https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
   - mac - https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos#step-1-installing-rbenv
-- install ruby version 3.3.4 
+- Install ruby version 3.3.4 
   - using rvm - rvn install 3.3.4 
   - using rbenv - rbenv install 3.3.4
-- set RUBY version - 3.3.4 
-- sh project_path/script/string_calculator.sh 
+- Set RUBY version - 3.3.4 
+- Run program using the sh script
+  - sh project_path/script/string_calculator.sh 
